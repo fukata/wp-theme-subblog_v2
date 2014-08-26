@@ -1,4 +1,4 @@
-wp-theme-subblog_v1
+wp-theme-subblog_v2
 ===================
 
-WordPress theme subblog v1
+WordPress theme subblog v2
