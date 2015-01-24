@@ -696,6 +696,7 @@ footer[role="contentinfo"] a:hover {
 	margin-bottom: 24px;
 	margin-bottom: 1.714285714rem;
 }
+.entry-meta .entry-title,
 .entry-header .entry-title {
 	font-size: 20px;
 	font-size: 1.428571429rem;
@@ -951,11 +952,13 @@ img.aligncenter {
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-	border-bottom: 4px double #ededed;
+	/*border-bottom: 4px double #ededed;*/
+    /*
 	margin-bottom: 72px;
 	margin-bottom: 5.142857143rem;
 	padding-bottom: 24px;
 	padding-bottom: 1.714285714rem;
+    */
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
@@ -1436,8 +1439,8 @@ img#wpstats {
 	}
 	.site {
 		margin: 0 auto;
-		max-width: 960px;
-		max-width: 68.571428571rem;
+        max-width: 960px;
+        max-width: 68.571428571rem;
 		overflow: hidden;
 	}
 	.site-content {
@@ -1735,5 +1738,24 @@ img#wpstats {
 .ad {
     float: left;
     margin: 5px;
+}
+
+/* =Thumbnail
+----------------------------------------------- */
+
+.site-content article.has-post-thumbnail {
+    block: table;
+    margin-bottom: 10px;
+}
+.site-content article.has-post-thumbnail .entry-header {
+	margin-bottom: 0px;
+    display:table-cell;
+}
+.site-content article.has-post-thumbnail .entry-meta {
+	margin-top: 0px;
+    clear: none;
+    display:table-cell;
+    vertical-align: top;
+    padding-left: 10px;
 }
 

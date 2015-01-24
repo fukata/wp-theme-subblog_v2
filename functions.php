@@ -448,3 +448,30 @@ function twentytwelve_customize_preview_js() {
 	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20120827', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
+
+function subblog_excerpt_more($post) {
+    return  ' ... <a href="'. get_permalink($post->ID) . '">' . ' 続きを読む' . '</a>';
+}
+ 
+function subblog_trim_all_excerpt( $text = '' , $cut = 100 ) {
+    $raw_excerpt = $text;
+    if ( '' == $text ) {
+        $text = get_the_content('');
+        $text = strip_shortcodes( $text );
+        $text = apply_filters('the_content', $text);
+        $text = str_replace(']]>', ']]&gt;', $text);
+        $text = wp_strip_all_tags( $text );
+        $text = trim( preg_replace( "/[\n\r\t ]+/", ' ', $text ), ' ' );
+    }
+    $excerpt_mblength = apply_filters('excerpt_mblength', $cut );
+    $excerpt_more = subblog_excerpt_more( $post );
+    if (mb_strlen($text) > $excerpt_mblength) {
+        $text = mb_substr($text, 0, $excerpt_mblength);
+    }
+    $text .= $excerpt_more;
+ 
+    return apply_filters('wp_trim_excerpt', $text, $raw_excerpt);
+}
+ 
+remove_filter('get_the_excerpt', 'wp_trim_excerpt');
+add_filter('get_the_excerpt', 'subblog_trim_all_excerpt' );

@@ -83,11 +83,6 @@ function twentytwelve_header_style() {
 		}
 	<?php endif; ?>
 
-        .entry-header .entry-title {
-            border-left: 10px solid #<?php echo $text_color; ?>;
-            padding-left: 5px;
-        }
-
         .widget-title {
             background-color: #<?php echo $text_color; ?>;
         }
