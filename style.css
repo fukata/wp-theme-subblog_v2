@@ -1758,4 +1758,7 @@ img#wpstats {
     vertical-align: top;
     padding-left: 10px;
 }
-
+.site-content article.has-post-thumbnail .entry-meta .entry-excerpt {
+    margin: 5px;
+    color: #aaa;
+}
