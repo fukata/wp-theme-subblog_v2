@@ -1762,3 +1762,7 @@ img#wpstats {
     margin: 5px;
     color: #aaa;
 }
+
+img.attachment-post-thumbnail.wp-post-image {
+    max-width: none;
+}
