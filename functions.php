@@ -475,3 +475,43 @@ function subblog_trim_all_excerpt( $text = '' , $cut = 100 ) {
  
 remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 add_filter('get_the_excerpt', 'subblog_trim_all_excerpt' );
+
+add_filter('wp_title', 'subblog_wp_title' );
+
+function subblog_wp_title($title='', $sep='|', $seplocation='') {
+    if ( is_tag() ) {
+        $title = subblog_multiple_tags_title( '', false ) . ' ' . $sep;
+    }
+    return $title;
+}
+
+function subblog_is_multiple_tags() {
+    return subblog_is_multiple_terms('post_tag');
+}
+
+function subblog_is_multiple_terms($taxonomy) {
+    global $wp_query;
+    return count($wp_query->tax_query->queried_terms[$taxonomy]['terms']) > 1;
+}
+
+function subblog_multiple_tags_title( $prefix = '', $display = true ) {
+    return subblog_multiple_terms_title( 'post_tag', $prefix, $display );
+}
+
+function subblog_multiple_terms_title( $taxonomy, $prefix, $display ) {
+    global $wp_query;
+
+    $names = array();
+    foreach ( $wp_query->tax_query->queried_terms[$taxonomy]['terms'] as $term ) {
+        $names[] = $term;
+    }
+
+    $relation = $wp_query->tax_query->queries[0]['operator'] === 'AND' ? 'AND' : 'OR';
+    $term_name = implode( ' ' . $relation . ' ', $names );
+
+    if ( $display ) {
+        echo $prefix . $term_name;
+    } else {
+        return $prefix . $term_name;
+    }
+}

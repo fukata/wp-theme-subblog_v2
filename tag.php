@@ -18,7 +18,13 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
-				<h1 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'twentytwelve' ), '<span>' . single_tag_title( '', false ) . '</span>' ); ?></h1>
+                <h1 class="archive-title">
+                    <?php if ( subblog_is_multiple_tags() ) { ?>
+                    <?php printf( __( 'Tag Archives: %s', 'twentytwelve' ), '<span>' . subblog_multiple_tags_title( '', false ) . '</span>' ); ?>
+                    <?php } else { ?>
+                    <?php printf( __( 'Tag Archives: %s', 'twentytwelve' ), '<span>' . single_tag_title( '', false ) . '</span>' ); ?>
+                    <?php } ?>
+                </h1>
 
 			<?php if ( tag_description() ) : // Show an optional tag description ?>
 				<div class="archive-meta"><?php echo tag_description(); ?></div>
