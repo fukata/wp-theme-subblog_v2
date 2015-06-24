@@ -479,7 +479,7 @@ add_filter('get_the_excerpt', 'subblog_trim_all_excerpt' );
 add_filter('wp_title', 'subblog_wp_title' );
 
 function subblog_wp_title($title='', $sep='|', $seplocation='') {
-    if ( is_tag() ) {
+    if ( is_tag() && subblog_is_multiple_tags() ) {
         $title = subblog_multiple_tags_title( '', false ) . ' ' . $sep;
     }
     return $title;
