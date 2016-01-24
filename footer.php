@@ -13,7 +13,7 @@
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
-            Powered by WordPress, PHP: <?php echo phpversion(); ?>
+            Powered by WordPress <?php bloginfo('version'); ?>, PHP: <?php echo phpversion(); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
