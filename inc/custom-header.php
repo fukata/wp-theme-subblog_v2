@@ -82,9 +82,12 @@ function twentytwelve_header_style() {
 			color: #<?php echo $text_color; ?> !important;
 		}
 	<?php endif; ?>
-
         .widget-title {
             background-color: #<?php echo $text_color; ?>;
+        }
+        .entry-content h2 {
+            border-left: #<?php echo $text_color; ?> solid 10px;
+            padding-left: 10px;
         }
 	</style>
 	<?php
