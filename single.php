@@ -22,7 +22,7 @@ get_header(); ?>
 					<span class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentytwelve' ) . '</span>' ); ?></span>
 				</nav><!-- .nav-single -->
 
-                <?php echo get_coppi('zenback'); ?>
+                <?php echo stripslashes(get_option('my_zenback')); ?>
 
 				<?php comments_template( '', true ); ?>
 
