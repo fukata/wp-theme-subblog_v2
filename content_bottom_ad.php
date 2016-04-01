@@ -6,6 +6,7 @@
     <div class="ad">
         <?php echo get_coppi('ga_content_bottom2'); ?>
     </div>
+</div>
 			<?php endif; // is_single() ?>
 
 
