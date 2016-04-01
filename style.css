@@ -1773,7 +1773,8 @@ img.attachment-post-thumbnail.wp-post-image {
  *============================================== */
 @media (max-width: 500px) {
   .site-content article {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
     -moz-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
     box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
@@ -1793,5 +1794,12 @@ img.attachment-post-thumbnail.wp-post-image {
   }
   .entry-header img.wp-post-image {
     margin-bottom: 0;
+  }
+  .widget-area .widget {
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
+    box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
+    margin-bottom: 20px;
+    padding: 15px;
   }
 }
