@@ -1744,27 +1744,28 @@ img#wpstats {
 ----------------------------------------------- */
 
 .site-content article.has-post-thumbnail {
-    block: table;
-    margin-bottom: 10px;
+  block: table;
+  margin-bottom: 10px;
 }
 .site-content article.has-post-thumbnail .entry-header {
-    margin-bottom: 0px;
-    display:table-cell;
+  margin-bottom: 0px;
+  display:table-cell;
 }
 .site-content article.has-post-thumbnail .entry-meta {
-    margin-top: 0px;
-    clear: none;
-    display:table-cell;
-    vertical-align: top;
-    padding-left: 10px;
+  margin-top: 0px;
+  clear: none;
+  display:table-cell;
+  vertical-align: top;
+  padding-left: 10px;
 }
 .site-content article.has-post-thumbnail .entry-meta .entry-excerpt {
-    margin: 5px;
-    color: #aaa;
+  margin: 5px;
+  color: #aaa;
 }
 
 img.attachment-post-thumbnail.wp-post-image {
-    max-width: none;
+  width: 240px;
+  max-width: none;
 }
 
 /*=================================================
