@@ -1748,11 +1748,11 @@ img#wpstats {
     margin-bottom: 10px;
 }
 .site-content article.has-post-thumbnail .entry-header {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
     display:table-cell;
 }
 .site-content article.has-post-thumbnail .entry-meta {
-	margin-top: 0px;
+    margin-top: 0px;
     clear: none;
     display:table-cell;
     vertical-align: top;
@@ -1765,4 +1765,19 @@ img#wpstats {
 
 img.attachment-post-thumbnail.wp-post-image {
     max-width: none;
+}
+
+/*=================================================
+ * Responsive
+ *============================================== */
+@media (max-width: 500px) {
+  .site-content article.has-post-thumbnail .entry-header {
+    display: block;
+  }
+  img.attachment-post-thumbnail.wp-post-image {
+      width: 100%;
+  }
+  .site-content article.has-post-thumbnail .entry-meta {
+    display: block;
+  }
 }
