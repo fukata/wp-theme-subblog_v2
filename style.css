@@ -1786,10 +1786,6 @@ img.attachment-post-thumbnail.wp-post-image {
   padding: 10px;
 }
 
-.entry-content p, .entry-summary p, .comment-content p, .mu_register p {
-  font-size: 1.4em;
-}
-
 /*=================================================
  * Responsive
  *============================================== */
