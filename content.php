@@ -72,6 +72,9 @@
             <div class="entry-excerpt">
                 <?php the_excerpt(); ?>
             </div>
+            
+            <time class="entry-date" datetime="<?php echo esc_attr( get_the_date( 'c' ) ) ?>"><?php echo esc_html( get_the_date() ) ?></time></a>
+            
         </footer><!-- .entry-meta -->
         <?php endif; ?>
 	</article><!-- #post -->
