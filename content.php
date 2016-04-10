@@ -69,10 +69,6 @@
                 <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
 			</h1>
 
-            <div class="entry-excerpt">
-                <?php the_excerpt(); ?>
-            </div>
-            
             <time class="entry-date" datetime="<?php echo esc_attr( get_the_date( 'c' ) ) ?>"><?php echo esc_html( get_the_date() ) ?></time></a>
             
         </footer><!-- .entry-meta -->
