@@ -1821,3 +1821,12 @@ img.attachment-post-thumbnail.wp-post-image {
     padding: 15px;
   }
 }
+
+/*=================================================
+ * YARRP 
+ *============================================== */
+.yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
+.yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
+  width: 120px;
+  height: 120px;
+}
