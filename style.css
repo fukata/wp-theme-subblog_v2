@@ -1833,7 +1833,11 @@ img.attachment-post-thumbnail.wp-post-image {
   .yarpp-thumbnails-horizontal .yarpp-thumbnail {
     width: 45% !important;
     height: auto !important;
-    max-height: 300px !important;
+    max-height: 360px !important;
+  }
+
+  .yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
+    width: auto;
   }
 
   .yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
