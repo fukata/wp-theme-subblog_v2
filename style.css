@@ -1831,15 +1831,15 @@ img.attachment-post-thumbnail.wp-post-image {
   }
 
   .yarpp-thumbnails-horizontal .yarpp-thumbnail {
-    width: 45%;
-    height: auto;
-    max-height: 300px;
+    width: 45% !important;
+    height: auto !important;
+    max-height: 300px !important;
   }
 
   .yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
   .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
-    width: 100%;
-    height: auto;
+    width: 100% !important;
+    height: auto !important;
   }
 }
 
