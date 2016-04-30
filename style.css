@@ -1787,6 +1787,15 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 
 /*=================================================
+ * YARRP 
+ *============================================== */
+.yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
+.yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
+  width: 120px;
+  height: 120px;
+}
+
+/*=================================================
  * Responsive
  *============================================== */
 @media (max-width: 500px) {
@@ -1820,13 +1829,17 @@ img.attachment-post-thumbnail.wp-post-image {
     margin-bottom: 20px;
     padding: 15px;
   }
+
+  .yarpp-thumbnails-horizontal .yarpp-thumbnail {
+    width: 45%;
+    height: auto;
+    max-height: 300px;
+  }
+
+  .yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
+  .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
+    width: 100%;
+    height: auto;
+  }
 }
 
-/*=================================================
- * YARRP 
- *============================================== */
-.yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
-.yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
-  width: 120px;
-  height: 120px;
-}
