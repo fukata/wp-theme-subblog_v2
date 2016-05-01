@@ -1789,6 +1789,9 @@ img.attachment-post-thumbnail.wp-post-image {
 /*=================================================
  * YARRP 
  *============================================== */
+.yarpp-thumbnails-horizontal .yarpp-thumbnail {
+  height: 260px;
+}
 .yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
 .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
   width: 120px;
