@@ -1735,9 +1735,15 @@ img#wpstats {
 	}
 }
 
-.ad {
-    float: left;
-    margin: 5px;
+/*=================================================
+ * AD 
+ *============================================== */
+.ad_section .ad {
+  float: left;
+  margin: 5px;
+}
+.ad_section .ad .ad_title {
+  color: #999;
 }
 
 /* =Thumbnail
