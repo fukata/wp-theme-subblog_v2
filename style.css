@@ -1792,6 +1792,8 @@ img.attachment-post-thumbnail.wp-post-image {
 .yarpp-thumbnails-horizontal .yarpp-thumbnail {
   width: 120px !important;
   height: 260px !important;
+  margin: 0 !important;
+  margin-bottom: 5px !important;
 }
 .yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
   width: auto !important;
