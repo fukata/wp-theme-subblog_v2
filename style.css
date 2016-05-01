@@ -1847,6 +1847,7 @@ img.attachment-post-thumbnail.wp-post-image {
   .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
     width: 100% !important;
     height: auto !important;
+    margin: 0;
   }
 }
 
