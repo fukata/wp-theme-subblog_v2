@@ -1,4 +1,5 @@
-			<?php if ( is_single() ) : ?>
+            <?php if ( is_single() ) : ?>
+<p>スポンサードリンク</p>
 <div class="clear">
     <div class="ad">
         <?php echo stripslashes(get_option('my_ad_content_bottom1')); ?>
