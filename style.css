@@ -1813,6 +1813,16 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 
 /*=================================================
+ * RSS Retriver 
+ *============================================== */
+.wp_rss_retriever li {
+  list-style: none;
+  float: left;
+  width: 200px;
+  height: 360px;
+}
+
+/*=================================================
  * Responsive
  *============================================== */
 @media (max-width: 500px) {
@@ -1830,7 +1840,7 @@ img.attachment-post-thumbnail.wp-post-image {
     display: block;
   }
   img.attachment-post-thumbnail.wp-post-image {
-      width: 100%;
+    width: 100%;
   }
   .site-content article.has-post-thumbnail .entry-meta {
     display: block;
