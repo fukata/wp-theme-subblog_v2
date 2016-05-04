@@ -1821,7 +1821,9 @@ img.attachment-post-thumbnail.wp-post-image {
   width: 200px;
   height: 360px;
 }
-
+.wp_rss_retriever_title {
+  height: 70px;
+}
 /*=================================================
  * Responsive
  *============================================== */
