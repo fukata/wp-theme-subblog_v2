@@ -1835,7 +1835,8 @@ img.attachment-post-thumbnail.wp-post-image {
   bottom: 0;
   color: white;
   margin: 0; 
-  padding: 5px; 
+  padding: 5px;
+  width: 100%; 
 }
 .wp_rss_retriever_metadata.source_tabearuki {
   background-color: #BA3120;
