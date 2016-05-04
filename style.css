@@ -1824,6 +1824,32 @@ img.attachment-post-thumbnail.wp-post-image {
 .wp_rss_retriever_title {
   height: 70px;
 }
+.wp_rss_retriever_image {
+  float: none;
+}
+.wp_rss_retriever_container {
+  position: relative;
+}
+.wp_rss_retriever_metadata {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  margin: 0; 
+  padding: 5px; 
+}
+.wp_rss_retriever_metadata.source_tabearuki {
+  background-color: #BA3120;
+}
+.wp_rss_retriever_metadata.source_travel {
+  background-color: #1571C1;
+}
+.wp_rss_retriever_metadata.source_camera {
+  background-color: #159C35;
+}
+.wp_rss_retriever_metadata.source_dev {
+  background-color: #282C34;
+}
+
 /*=================================================
  * Responsive
  *============================================== */
