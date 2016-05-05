@@ -1873,16 +1873,16 @@ img.attachment-post-thumbnail.wp-post-image {
 .nlposts-block-thumbnail-wrapper {
   position: relative;
 }
-.nlposts-siteid-1 .nsposts-block-meta {
+.nlposts-siteid-1 .nlposts-block-meta {
   background-color: #282C34 !important;
 }
-.nlposts-siteid-3 .nsposts-block-meta {
+.nlposts-siteid-3 .nlposts-block-meta {
   background-color: #BA3120 !important;
 }
-.nlposts-siteid-4 .nsposts-block-meta {
+.nlposts-siteid-4 .nlposts-block-meta {
   background-color: #159C35 !important;
 }
-.nlposts-siteid-5 .nsposts-block-meta {
+.nlposts-siteid-5 .nlposts-block-meta {
   background-color: #1571C1 !important;
 }
 
