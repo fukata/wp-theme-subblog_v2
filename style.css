@@ -1919,8 +1919,11 @@ img.attachment-post-thumbnail.wp-post-image {
   }
   .wp_rss_retriever_title {
     height: auto !important;
-  }
-  .wp_rss_retriever_container {
+    padding: 10px 5px;
+    font-size: 1.428571429rem;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #757575;
   }
   .wp_rss_retriever_image {
     width: 100% !important;
