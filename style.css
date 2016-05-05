@@ -1910,7 +1910,7 @@ img.attachment-post-thumbnail.wp-post-image {
     margin: 0px !important;
     float: none !important;
   }
-  .wp_rss_retriever_wrapper {
+  .wp_rss_retriever_item_wrapper {
     margin-top: 0px;
     margin-bottom: 30px;
     -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
