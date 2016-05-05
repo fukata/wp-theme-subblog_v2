@@ -1817,8 +1817,8 @@ img.attachment-post-thumbnail.wp-post-image {
 .nlposts-block-container .nlposts-block-item {
   float: left !important;
   display: block !important;
-  width: 300px !important;
-  height: auto !important;
+  width: 200px !important;
+  height: 300px !important;
   margin: 10px !important;
   -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
   -moz-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
