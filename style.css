@@ -1871,11 +1871,11 @@ img.attachment-post-thumbnail.wp-post-image {
 .nlposts-block-title {
   margin: 0 !important;
 }
+.nlposts-block-title a {
+  color: #757575 !important;
+}
 .nlposts-block-thumbnail-wrapper {
   position: relative;
-}
-.nlposts-block-thumbnail-wrapper a {
-  color: #757575 !important;
 }
 .nlposts-siteid-1 .nlposts-block-meta {
   background-color: #282C34 !important;
