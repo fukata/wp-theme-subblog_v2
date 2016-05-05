@@ -1875,6 +1875,7 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 .nlposts-block-title {
   margin: 0 !important;
+  word-break: break-all !important;
 }
 .nlposts-block-title a {
   color: #757575 !important;
