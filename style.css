@@ -1907,7 +1907,7 @@ img.attachment-post-thumbnail.wp-post-image {
   .wp_rss_retriever li {
     width: 100% !important;
     height: auto !important;
-    margin: 0 !important;
+    margin: 0px !important;
     float: none !important;
   }
   .wp_rss_retriever_title {
@@ -1918,9 +1918,19 @@ img.attachment-post-thumbnail.wp-post-image {
   .wp_rss_retriever_image {
     width: 100% !important;
     height: auto !important;
-    margin-right: 0 !important;
-    margin-bottom: 0 !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
     overflow: auto !important;
+  }
+  .wp_rss_retriever_image img {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    position: auto !important;
+    left: none !important;
+    top: none !important;
+    height: auto !important;
+    width: 100% !important;
   }
 }
 
