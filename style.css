@@ -1855,6 +1855,14 @@ img.attachment-post-thumbnail.wp-post-image {
   background: none !important;
   border-bottom: none !important;
   margin-bottom: 0 !important;
+
+  display: block !important;
+  color: white !important;
+  padding: 5px !important;
+  position: absolute !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  bottom: 0 !important;
 }
 .nlposts-caption {
   padding: 5px !important;
@@ -1864,15 +1872,6 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 .nlposts-block-thumbnail-wrapper {
   position: relative;
-}
-.nlposts-block-meta {
-  display: block;
-  color: white;
-  padding: 5px !important;
-  position: absolute;
-  width: 100%;
-  box-sizing: border-box;
-  bottom: 0;
 }
 .nlposts-siteid-1 .nsposts-block-meta {
   background-color: #282C34 !important;
