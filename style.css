@@ -1817,7 +1817,7 @@ img.attachment-post-thumbnail.wp-post-image {
 .nlposts-block-container .nlposts-block-item {
   float: left !important;
   display: block !important;
-  width: 200px !important;
+  width: 300px !important;
   height: auto !important;
   margin: 10px !important;
   -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
@@ -1855,6 +1855,12 @@ img.attachment-post-thumbnail.wp-post-image {
   background: none !important;
   border-bottom: none !important;
   margin-bottom: 0 !important;
+}
+.nlposts-caption {
+  padding: 5px !important;
+}
+.nlposts-block-title {
+  margin: 0 !important;
 }
 /*=================================================
  * RSS Retriever  
