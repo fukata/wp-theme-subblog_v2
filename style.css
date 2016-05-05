@@ -1862,6 +1862,31 @@ img.attachment-post-thumbnail.wp-post-image {
 .nlposts-block-title {
   margin: 0 !important;
 }
+.nlposts-block-thumbnail-wrapper {
+  position: relative;
+}
+.nlposts-block-meta {
+  display: block;
+  color: white;
+  padding: 5px !important;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+}
+.nlposts-siteid-1 .nsposts-block-meta {
+  background-color: #282C34 !important;
+}
+.nlposts-siteid-3 .nsposts-block-meta {
+  background-color: #BA3120 !important;
+}
+.nlposts-siteid-4 .nsposts-block-meta {
+  background-color: #159C35 !important;
+}
+.nlposts-siteid-5 .nsposts-block-meta {
+  background-color: #1571C1 !important;
+}
+
 /*=================================================
  * RSS Retriever  
  *============================================== */
