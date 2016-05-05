@@ -1820,7 +1820,10 @@ img.attachment-post-thumbnail.wp-post-image {
   display: block !important;
   width: 200px !important;
   height: auto !important;
-  margin: 0 !important;
+  margin: 10px !important;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
+  box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
 }
 .nlposts-block-container .thumbnails {
   margin: 0 !important;
