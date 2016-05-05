@@ -1819,13 +1819,20 @@ img.attachment-post-thumbnail.wp-post-image {
   list-style: none;
   float: left;
   width: 200px;
-  height: 360px;
+  height: 300px;
 }
 .wp_rss_retriever_title {
   height: 70px;
+  font-size: 1.428571429rem;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #757575;
 }
 .wp_rss_retriever_image {
   float: none;
+  height: auto !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
 }
 .wp_rss_retriever_container {
   position: relative;
@@ -1920,16 +1927,10 @@ img.attachment-post-thumbnail.wp-post-image {
   .wp_rss_retriever_title {
     height: auto !important;
     padding: 10px 5px;
-    font-size: 1.428571429rem;
-    line-height: 1.2;
-    font-weight: normal;
-    color: #757575;
   }
   .wp_rss_retriever_image {
     width: 100% !important;
     height: auto !important;
-    margin-right: 0px !important;
-    margin-bottom: 0px !important;
     overflow: auto !important;
   }
   .wp_rss_retriever_image img {
