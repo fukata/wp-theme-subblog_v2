@@ -1778,7 +1778,7 @@ img.attachment-post-thumbnail.wp-post-image {
   margin-bottom: 0px;
 }
 
-.home .site-content article,
+.home.blog .site-content article,
 .search .site-content article,
 .archive .site-content article {
   margin-top: 0px;
