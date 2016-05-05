@@ -1823,9 +1823,6 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 .wp_rss_retriever_title {
   height: 70px;
-  font-size: 1.428571429rem;
-  line-height: 1.2;
-  font-weight: normal;
   color: #757575;
 }
 .wp_rss_retriever_image {
@@ -1927,6 +1924,9 @@ img.attachment-post-thumbnail.wp-post-image {
   .wp_rss_retriever_title {
     height: auto !important;
     padding: 10px 5px;
+    font-size: 1.428571429rem;
+    line-height: 1.2;
+    font-weight: normal;
   }
   .wp_rss_retriever_image {
     width: 100% !important;
