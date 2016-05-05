@@ -1873,6 +1873,8 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 .nlposts-block-thumbnail-wrapper {
   position: relative;
+}
+.nlposts-block-thumbnail-wrapper a {
   color: #757575 !important;
 }
 .nlposts-siteid-1 .nlposts-block-meta {
