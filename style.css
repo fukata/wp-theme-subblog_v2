@@ -1811,7 +1811,6 @@ img.attachment-post-thumbnail.wp-post-image {
   margin: 0 !important;
   margin-bottom: 5px !important;
 }
-
 /*=================================================
  * Network Latest Posts 
  *============================================== */
@@ -1850,7 +1849,13 @@ img.attachment-post-thumbnail.wp-post-image {
   -webkit-filter: none !important;
   opacity: 1 !important;
 }
-
+.nlposts-block-container .nlposts-block-meta {
+  font-style: normal !important;
+  padding-left: 0;
+  background: none !important;
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+}
 /*=================================================
  * RSS Retriever  
  *============================================== */
