@@ -1811,6 +1811,7 @@ img.attachment-post-thumbnail.wp-post-image {
   margin: 0 !important;
   margin-bottom: 5px !important;
 }
+
 /*=================================================
  * Network Latest Posts 
  *============================================== */
@@ -1988,7 +1989,22 @@ img.attachment-post-thumbnail.wp-post-image {
     width: 100% !important;
     height: auto !important;
   }
-  
+ 
+  /*=================================================
+  * Network Latest Posts 
+  *============================================== */
+  .nlposts-block-container .nlposts-block-item {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    margin-bottom: 20px; !important;
+  }
+  .nlposts-block-title {
+    font-size: 1.428571429rem !important;
+    line-height: 1.2 !important;
+    font-weight: normal !important;
+  }
+
   /*=================================================
   * RSS Retriever  
   *============================================== */
