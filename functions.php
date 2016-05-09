@@ -515,3 +515,19 @@ function subblog_multiple_terms_title( $taxonomy, $prefix, $display ) {
         return $prefix . $term_name;
     }
 }
+
+add_filter('the_content', 'subblog_ad_more');
+function subblog_ad_more($content) {    
+  
+  $ad = stripslashes(get_option('my_ad_content_bottom1'));
+  if (empty($ad)) {
+    return $content;
+  } 
+  $ad = "<div class=\"ad_section\"><p class=\"ad_title\">広告</p><div class=\"ad_body\">${ad}</div></div>";
+  $content = preg_replace('/<span id="more-&#91;0-9&#93;+"><\/span>/', $ad, $content);
+  //$content = str_replace('<p></p>', '', $content);
+  //$content = str_replace('<p><br />', '<p>', $content);   
+
+  return $content;
+}
+ 
