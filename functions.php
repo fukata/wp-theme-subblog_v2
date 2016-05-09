@@ -524,7 +524,7 @@ function subblog_ad_more($content) {
     return $content;
   } 
   $ad = "<div class=\"ad_section\"><p class=\"ad_title\">広告</p><div class=\"ad_body\">${ad}</div></div>";
-  $content = preg_replace('/((?:<p>)?<span id="more-[0-9]+"><\/span>(?:<\/p>)?)/', "\1${ad}", $content);
+  $content = preg_replace('/((?:<p>)?<span id="more-[0-9]+"><\/span>(?:<\/p>)?)/', "${1}${ad}", $content);
   //$content = str_replace('<p></p>', '', $content);
   //$content = str_replace('<p><br />', '<p>', $content);   
 
