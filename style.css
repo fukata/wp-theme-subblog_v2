@@ -1743,6 +1743,10 @@ img#wpstats {
   margin: 5px;
 }
 
+.ad_section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .ad_section .ad_title {
   color: #999;
 }
