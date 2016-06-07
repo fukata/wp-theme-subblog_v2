@@ -1823,7 +1823,7 @@ img.attachment-post-thumbnail.wp-post-image {
 .nlposts-block-container .nlposts-block-item {
   float: left !important;
   display: block !important;
-  width: 200px !important;
+  width: 220px !important;
   height: 300px !important;
   margin: 10px !important;
   -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
@@ -1894,60 +1894,6 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 .nlposts-siteid-5 .nlposts-block-meta {
   background-color: #1571C1 !important;
-}
-
-/*=================================================
- * RSS Retriever  
- *============================================== */
-.wp_rss_retriever li {
-  list-style: none;
-  float: left;
-  width: 200px;
-  height: 250px;
-}
-.wp_rss_retriever_title {
-  height: 70px;
-  color: #757575;
-}
-.wp_rss_retriever_image {
-  float: none;
-  height: auto !important;
-  margin-right: 0 !important;
-  margin-bottom: 0 !important;
-}
-.wp_rss_retriever_image img {
-  -webkit-transform: none !important;
-  -ms-transform: none !important;
-  transform: none !important;
-  position: relative !important;
-  left: 0 !important;
-  top: 0 !important;
-  height: auto !important;
-  width: 100% !important;
-}
-.wp_rss_retriever_container {
-  position: relative;
-}
-.wp_rss_retriever_metadata {
-  position: absolute;
-  bottom: 0;
-  color: white;
-  margin: 0; 
-  padding: 5px;
-  width: 100%; 
-  box-sizing: border-box;
-}
-.wp_rss_retriever_metadata.source_tabearuki {
-  background-color: #BA3120;
-}
-.wp_rss_retriever_metadata.source_travel {
-  background-color: #1571C1;
-}
-.wp_rss_retriever_metadata.source_camera {
-  background-color: #159C35;
-}
-.wp_rss_retriever_metadata.source_dev {
-  background-color: #282C34;
 }
 
 /*=================================================
