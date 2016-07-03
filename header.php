@@ -21,7 +21,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
-<meta name='B-verify' content='9a0f00ed2dfa0deb6081e9d47390ab2147e4fd73' />
+<meta name='B-verify' content='1eef0dd0da25b13b2fae70673c38f59bb11c954e' />
 <title><?php wp_title( '|',true,'right');?><?php  bloginfo('name'); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
