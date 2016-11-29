@@ -21,19 +21,19 @@ if ( empty($thumbnails_default) ) {
 
 $dimensions = $this->thumbnail_dimensions();
 
-$output .= '<div class="ad_section">' .
+$__output .= '<div class="ad_section">' .
            '<div class="ad_title">広告</div>' .
            '<div class="ad_body"> ' . stripslashes(get_option('my_ad_content_bottom2')) . '</div>' . 
            '</div>';
 
-$output .= '<h2>関連記事</h2>' . "\n";
+$__output .= '<h2>関連記事</h2>' . "\n";
 
 if (have_posts()) {
-  $output .= '<div class="yarpp-thumbnails-horizontal">' . "\n";
+  $__output .= '<div class="yarpp-thumbnails-horizontal">' . "\n";
   while (have_posts()) {
     the_post();
 
-    $output .= "<a class='yarpp-thumbnail' href='" . get_permalink() . "' title='" . the_title_attribute('echo=0') . "'>" . "\n";
+    $__output .= "<a class='yarpp-thumbnail' href='" . get_permalink() . "' title='" . the_title_attribute('echo=0') . "'>" . "\n";
 
     $post_thumbnail_html = '';
     if ( has_post_thumbnail() ) {
@@ -44,17 +44,18 @@ if (have_posts()) {
     }
 
     if ( trim($post_thumbnail_html) != '' ) {
-      $output .= $post_thumbnail_html;
+      $__output .= $post_thumbnail_html;
     } else {
-      $output .= '<span class="yarpp-thumbnail-default"><img src="' . esc_url($thumbnails_default) . '"/></span>';
+      $__output .= '<span class="yarpp-thumbnail-default"><img src="' . esc_url($thumbnails_default) . '"/></span>';
     }
 
-    $output .= '<span class="yarpp-thumbnail-title">' . get_the_title() . '</span>';
-    $output .= '</a>' . "\n";
+    $__output .= '<span class="yarpp-thumbnail-title">' . get_the_title() . '</span>';
+    $__output .= '</a>' . "\n";
   }
-  $output .= "</div>\n";
+  $__output .= "</div>\n";
 } else {
-  $output .= 'まだ関連記事がありません。';
+  $__output .= 'まだ関連記事がありません。';
 }
 
 $this->enqueue_thumbnails( $dimensions );
+echo $__output;
