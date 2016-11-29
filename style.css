@@ -1837,16 +1837,6 @@ img.attachment-post-thumbnail.wp-post-image {
   min-height: 120px;
   min-width: 260px;
 }
-.yarpp-thumbnails-horizontal .yarpp-thumbnail {
-  width: 45% !important;
-  height: auto !important;
-  max-height: 360px !important;
-}
-.yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
-.yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
-  width: 100% !important;
-  height: auto !important;
-}
 
 .yarpp-thumbnails-horizontal .yarpp-thumbnail {
   width: 120px !important;
@@ -1978,7 +1968,21 @@ img.attachment-post-thumbnail.wp-post-image {
     margin-bottom: 20px;
     padding: 15px;
   }
- 
+
+  /*=================================================
+  * YARRP 
+  *============================================== */
+  .yarpp-thumbnails-horizontal .yarpp-thumbnail {
+    width: 45% !important;
+    height: auto !important;
+    max-height: 360px !important;
+  }
+  .yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
+  .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
+    width: 100% !important;
+    height: auto !important;
+  }
+
   /*=================================================
   * Network Latest Posts 
   *============================================== */
