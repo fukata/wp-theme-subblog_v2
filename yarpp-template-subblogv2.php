@@ -1,0 +1,22 @@
+<?php
+/*
+ * YARPP Template: SubBlog V2
+ * Description: Requires a theme which supports post thumbnails
+ * Author: fukata (Tatsuya Fukata)
+ * */ ?>
+<div class="yarpp-related">
+  <h2>関連記事</h2>
+  <div class="yarpp-thumbnails-horizontal">
+    <?php if (have_posts()):?>
+      <?php while (have_posts()) : the_post(); ?>
+        <a class="yarpp-thumbnail" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
+          <span class="yarpp-thumbnail-default"><img src="<?php the_post_thumbnail(); ?>"></span><span class="yarpp-thumbnail-title"><?php the_title_attribute(); ?></span>
+        </a>
+      <?php endwhile; ?>
+    </ol>
+  </div>
+
+  <?php else: ?>
+  <p>まだ関連記事がありません。</p>
+  <?php endif; ?>
+</div>
