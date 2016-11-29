@@ -10,9 +10,9 @@
 <?php while (have_posts()) : the_post(); ?>
 <a class="yarpp-thumbnail" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
   <?php if ( FlickrPress::isExtractThumbnailByPostID( get_the_ID() ) ) { ?>
-  <span class="yarpp-thumbnail-default"><?php the_post_thumbnail('q'); ?></span><span class="yarpp-thumbnail-title"><?php the_title(); ?></span>
+  <span class="yarpp-thumbnail"><?php the_post_thumbnail('q'); ?></span><span class="yarpp-thumbnail-title"><?php the_title(); ?></span>
   <?php } else { ?>
-  <span class="yarpp-thumbnail-default"><?php the_post_thumbnail('thumbnail'); ?></span><span class="yarpp-thumbnail-title"><?php the_title(); ?></span>
+  <span class="yarpp-thumbnail"><?php the_post_thumbnail('thumbnail'); ?></span><span class="yarpp-thumbnail-title"><?php the_title(); ?></span>
   <?php } ?>
 </a>
 <?php endwhile; ?>
