@@ -30,8 +30,6 @@
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
 
-        <?php include_once(__DIR__ . '/content_bottom_ad.php') ?>
-
         <?php else : // is_single() ?>
         <header class="entry-header">
             <?php if ( FlickrPress::isExtractThumbnailByPostID( get_the_ID() ) ) { ?>
