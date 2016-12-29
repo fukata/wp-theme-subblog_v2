@@ -1934,6 +1934,13 @@ img.attachment-post-thumbnail.wp-post-image {
   background-color: #1571C1 !important;
 }
 
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current_page_ancestor > a {
+  font-weight: normal;
+}
+
 /*=================================================
  * Responsive
  *============================================== */
