@@ -1,7 +1,7 @@
 /*
 Theme Name: SubBlog v2
 Theme URI: http://wordpress.org/extend/themes/twentytwelve
-Author: Tatsuya Fukata 
+Author: Tatsuya Fukata
 Author URI: http://wordpress.org/
 Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
 Version: 1.0
@@ -1736,7 +1736,7 @@ img#wpstats {
 }
 
 /*=================================================
- * AD 
+ * AD
  *============================================== */
 .ad {
   float: left;
@@ -1798,7 +1798,18 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 
 /*=================================================
- * YARRP 
+ * Youtube Channel
+ *============================================== */
+.youtube_channel .ytc_video_container {
+  padding: 10px;
+  width: 220px;
+}
+.youtube_channel .ytc_video_container iframe {
+  width: 220px;
+}
+
+/*=================================================
+ * YARRP
  *============================================== */
 .yarpp-thumbnails-horizontal .yarpp-thumbnail, .yarpp-thumbnail-default, .yarpp-thumbnail-title {
   display: inline-block;
@@ -1856,7 +1867,7 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 
 /*=================================================
- * Network Latest Posts 
+ * Network Latest Posts
  *============================================== */
 .nlposts-block-container .nlposts-block-item {
   float: left !important;
@@ -1977,7 +1988,19 @@ img.attachment-post-thumbnail.wp-post-image {
   }
 
   /*=================================================
-  * YARRP 
+  * Youtube Channel
+  *============================================== */
+  .youtube_channel .ytc_video_container {
+    padding: 0px;
+    margin-bottom: 10px;
+    width: 100% !important;
+  }
+  .youtube_channel .ytc_video_container iframe {
+    width: 100% !important;
+  }
+
+  /*=================================================
+  * YARRP
   *============================================== */
   .yarpp-thumbnails-horizontal .yarpp-thumbnail {
     width: 45% !important;
@@ -1991,7 +2014,7 @@ img.attachment-post-thumbnail.wp-post-image {
   }
 
   /*=================================================
-  * Network Latest Posts 
+  * Network Latest Posts
   *============================================== */
   .nlposts-block-container .nlposts-block-item {
     width: 100% !important;
@@ -2006,7 +2029,7 @@ img.attachment-post-thumbnail.wp-post-image {
   }
 
   /*=================================================
-  * RSS Retriever  
+  * RSS Retriever
   *============================================== */
   .wp_rss_retriever li {
     width: 100% !important;
@@ -2034,4 +2057,3 @@ img.attachment-post-thumbnail.wp-post-image {
     overflow: auto !important;
   }
 }
-
