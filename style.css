@@ -1801,7 +1801,7 @@ img.attachment-post-thumbnail.wp-post-image {
  * Youtube Channel
  *============================================== */
 .youtube_channel .ytc_video_container {
-  padding: 10px;
+  margin: 10px;
   width: 220px;
   -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
   -moz-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
@@ -1809,6 +1809,7 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 .youtube_channel .ytc_video_container .ytc_title {
   margin: 5px;
+  height: 100px;
 }
 .youtube_channel .ytc_video_container iframe {
   width: 220px;
@@ -2000,6 +2001,10 @@ img.attachment-post-thumbnail.wp-post-image {
     padding: 0px;
     margin-bottom: 10px;
     width: 100% !important;
+  }
+  .youtube_channel .ytc_video_container .ytc_title {
+    height: auto !important;
+    max-height: 100px !important;
   }
   .youtube_channel .ytc_video_container iframe {
     width: 100% !important;
