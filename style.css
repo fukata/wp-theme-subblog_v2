@@ -1801,6 +1801,7 @@ img.attachment-post-thumbnail.wp-post-image {
  * Instagram Feed
  *============================================== */
 #sb_instagram #sbi_images .sbi_item { padding: 10px !important; }
+#sb_instagram .sbi_photo { max-height: 220px !important; }
 
 /*=================================================
  * Youtube Channel
