@@ -30,6 +30,8 @@
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
 
+    <?php include_once(__DIR__ . '/content_bottom_ad.php') ?>
+
         <?php else : // is_single() ?>
         <header class="entry-header">
             <?php if ( FlickrPress::isExtractThumbnailByPostID( get_the_ID() ) ) { ?>
@@ -68,7 +70,7 @@
 			</h1>
 
             <time class="entry-date" datetime="<?php echo esc_attr( get_the_date( 'c' ) ) ?>"><?php echo esc_html( get_the_date() ) ?></time></a>
-            
+
         </footer><!-- .entry-meta -->
         <?php endif; ?>
 	</article><!-- #post -->
