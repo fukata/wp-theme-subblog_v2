@@ -1798,6 +1798,11 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 
 /*=================================================
+ * Instagram Feed
+ *============================================== */
+.sbi_item { padding: 10px !important; }
+
+/*=================================================
  * Youtube Channel
  *============================================== */
 .youtube_channel .ytc_video_container {
@@ -1994,6 +1999,11 @@ img.attachment-post-thumbnail.wp-post-image {
     margin-bottom: 20px;
     padding: 15px;
   }
+
+  /*=================================================
+  * Instagram Feed
+  *============================================== */
+  .sbi_item { padding: 0px !important; }
 
   /*=================================================
   * Youtube Channel
