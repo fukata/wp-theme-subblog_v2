@@ -2008,6 +2008,7 @@ img.attachment-post-thumbnail.wp-post-image {
     padding: 0px !important;
     margin-bottom: 20px !important;
   }
+  #sb_instagram .sbi_photo { max-height: auto !important; }
 
   /*=================================================
   * Youtube Channel
