@@ -1800,7 +1800,7 @@ img.attachment-post-thumbnail.wp-post-image {
 /*=================================================
  * Instagram Feed
  *============================================== */
-.sbi_item { padding: 10px !important; }
+#sb_instagram #sbi_images .sbi_item { padding: 10px !important; }
 
 /*=================================================
  * Youtube Channel
