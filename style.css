@@ -2003,7 +2003,7 @@ img.attachment-post-thumbnail.wp-post-image {
   /*=================================================
   * Instagram Feed
   *============================================== */
-  .sbi_item { padding: 0px !important; }
+  #sb_instagram #sbi_images .sbi_item { padding: 0px !important; }
 
   /*=================================================
   * Youtube Channel
