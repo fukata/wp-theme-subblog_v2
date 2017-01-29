@@ -2003,7 +2003,10 @@ img.attachment-post-thumbnail.wp-post-image {
   /*=================================================
   * Instagram Feed
   *============================================== */
-  #sb_instagram #sbi_images .sbi_item { padding: 0px !important; }
+  #sb_instagram #sbi_images .sbi_item {
+    padding: 0px !important;
+    margin-bottom: 20px !important;
+  }
 
   /*=================================================
   * Youtube Channel
@@ -2011,7 +2014,7 @@ img.attachment-post-thumbnail.wp-post-image {
   .youtube_channel .ytc_video_container {
     padding: 0px;
     margin: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 100% !important;
   }
   .youtube_channel .ytc_video_container .ytc_title {
