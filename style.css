@@ -1847,7 +1847,7 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 .yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
   font-size: 1em;
-  /*max-height: 2.8em;*/
+  max-height: 8.8em;
   line-height: 1.4em;
   margin: 7px;
   margin-top: 0px;
