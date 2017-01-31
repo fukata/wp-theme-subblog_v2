@@ -1823,7 +1823,7 @@ img.attachment-post-thumbnail.wp-post-image {
 }
 
 /*=================================================
- * YARRP
+ * YARPP
  *============================================== */
 .yarpp-thumbnails-horizontal .yarpp-thumbnail, .yarpp-thumbnail-default, .yarpp-thumbnail-title {
   display: inline-block;
@@ -1859,6 +1859,7 @@ img.attachment-post-thumbnail.wp-post-image {
   overflow: hidden;
 }
 .yarpp-thumbnail-default > img {
+  width: 220px;
   min-height: 120px;
   min-width: 260px;
 }
@@ -2028,7 +2029,7 @@ img.attachment-post-thumbnail.wp-post-image {
   }
 
   /*=================================================
-  * YARRP
+  * YARPP
   *============================================== */
   .yarpp-thumbnails-horizontal .yarpp-thumbnail {
     width: 45% !important;
