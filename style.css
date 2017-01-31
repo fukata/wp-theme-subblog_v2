@@ -1854,6 +1854,7 @@ img.attachment-post-thumbnail.wp-post-image {
   width: 120px;
   text-decoration: inherit;
   overflow: hidden;
+  word-break: break-all;
 }
 .yarpp-thumbnail-default {
   overflow: hidden;
