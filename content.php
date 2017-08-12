@@ -70,7 +70,7 @@
 			</h1>
 
             <?php $category = get_the_category()[0]; ?>
-            <p class="category-name category-name-<?php echo $category->id ?>"><?php echo get_cat_name($category->term_id) ?></p>
+            <p class="category-name category-name-<?php echo $category->cat_ID ?>"><?php echo $category->cat_name ?></p>
             <time class="entry-date" datetime="<?php echo esc_attr( get_the_date( 'c' ) ) ?>"><?php echo esc_html( get_the_date() ) ?></time></a>
 
         </footer><!-- .entry-meta -->
