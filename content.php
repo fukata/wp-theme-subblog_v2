@@ -72,7 +72,7 @@
             <?php $category = get_the_category()[0]; ?>
             <p class="category-name category-name-<?php echo $category->cat_ID ?>"><?php echo $category->cat_name ?></p>
             <time class="entry-date" datetime="<?php echo esc_attr( get_the_date( 'c' ) ) ?>"><?php echo esc_html( get_the_date() ) ?></time></a>
-
+            <p><?php echo get_the_tag_list( '', __( ', ', 'twentytwelve' ) ); ?></p>
         </footer><!-- .entry-meta -->
         <?php endif; ?>
 	</article><!-- #post -->
