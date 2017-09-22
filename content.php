@@ -28,9 +28,8 @@
 		<div class="entry-content">
 			<?php the_content( __( '続きを読む <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
+      <?php include_once(__DIR__ . '/content_bottom_ad.php') ?>
 		</div><!-- .entry-content -->
-
-    <?php include_once(__DIR__ . '/content_bottom_ad.php') ?>
 
         <?php else : // is_single() ?>
         <header class="entry-header">
