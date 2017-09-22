@@ -1,2 +1,9 @@
 .DS_Store
 *.swp
+
+yarpp-template-example.php
+yarpp-template-list.php
+yarpp-template-multilingual.php
+yarpp-template-photoblog.php
+yarpp-template-random.php
+yarpp-template-thumbnail.php

@@ -1968,6 +1968,41 @@ img.attachment-post-thumbnail.wp-post-image {
   font-weight: normal;
 }
 
+footer.entry-meta .category-name {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* 旅行 */
+footer.entry-meta .category-name-1278 {
+  background-color: #1571C1 !important;
+  color: white;
+}
+
+/* 食事 */
+footer.entry-meta .category-name-1482 {
+  background-color: #BA3120 !important;
+  color: white;
+}
+
+/* カメラ */
+footer.entry-meta .category-name-1137 {
+  background-color: #159C35 !important;
+  color: white;
+}
+
+/* 開発 */
+footer.entry-meta .category-name-1980 {
+  background-color: #282C34 !important;
+  color: white;
+}
+
+/* 雑記 */
+footer.entry-meta .category-name-1156 {
+  background-color: #ccc;
+}
+
 /*=================================================
  * Responsive
  *============================================== */
