@@ -2003,6 +2003,14 @@ footer.entry-meta .category-name-1156 {
   background-color: #ccc;
 }
 
+ul.category-child-links {
+}
+
+ul.category-child-links > li {
+  float: left;
+  padding: 5px;
+}
+
 /*=================================================
  * Responsive
  *============================================== */
