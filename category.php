@@ -20,9 +20,10 @@ get_header(); ?>
 			<header class="archive-header">
 				<h1 class="archive-title"><?php printf( __( 'Category Archives: %s', 'twentytwelve' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
 
-			<?php if ( category_description() ) : // Show an optional category description ?>
-				<div class="archive-meta"><?php echo category_description(); ?></div>
-			<?php endif; ?>
+        <?php if ( category_description() ) : // Show an optional category description ?>
+          <div class="archive-meta"><?php echo category_description(); ?></div>
+        <?php endif; ?>
+        <?php include_once(__DIR__ . "/category-link.php") ?>
 			</header><!-- .archive-header -->
 
 			<?php
