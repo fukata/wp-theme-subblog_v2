@@ -12,6 +12,7 @@
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=カンボジア">カンボジア</a></li>
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=ラオス">ラオス</a></li>
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=マレーシア">マレーシア</a></li>
+  <li><a href="/archives/category/<?php echo $category->slug ?>?tag=ミャンマー">ミャンマー</a></li>
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=シンガポール">シンガポール</a></li>
 </ul>
 <?php } ?>
