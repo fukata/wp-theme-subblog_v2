@@ -1750,6 +1750,9 @@ img#wpstats {
 .ad_section .ad_title {
   color: #999;
 }
+/*=================================================
+ * /AD
+ *============================================== */
 
 /* =Thumbnail
 ----------------------------------------------- */
@@ -1795,170 +1798,6 @@ img.attachment-post-thumbnail.wp-post-image {
 
 .site-content article.has-post-thumbnail .entry-meta {
   padding: 10px;
-}
-
-/*=================================================
- * Instagram Feed
- *============================================== */
-#sb_instagram #sbi_images .sbi_item { padding: 10px !important; }
-#sb_instagram .sbi_photo { max-height: 220px !important; }
-
-/*=================================================
- * Youtube Channel
- *============================================== */
-.youtube_channel .ytc_video_container {
-  margin: 10px;
-  width: 220px;
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
-  -moz-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
-  box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
-}
-.youtube_channel .ytc_video_container .ytc_title {
-  margin: 5px;
-  height: 100px;
-  color: #757575 !important;
-}
-.youtube_channel .ytc_video_container iframe {
-  width: 220px;
-}
-
-/*=================================================
- * YARPP
- *============================================== */
-.yarpp-thumbnails-horizontal .yarpp-thumbnail, .yarpp-thumbnail-default, .yarpp-thumbnail-title {
-  display: inline-block;
-  *display: inline;
-}
-.yarpp-thumbnails-horizontal .yarpp-thumbnail {
-  border: 1px solid rgba(127,127,127,0.1);
-  width: 130px;
-  height: 240px;
-  margin: 5px;
-  margin-left: 0px;
-  vertical-align: top;
-}
-.yarpp-thumbnail > img, .yarpp-thumbnail-default {
-  width: 120px;
-  height: 260px;
-  margin: 0px;
-}
-.yarpp-thumbnails-horizontal .yarpp-thumbnail > img, .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
-  display: block;
-}
-.yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
-  font-size: 1em;
-  max-height: 8.8em !important;
-  line-height: 1.4em;
-  margin: 7px;
-  margin-top: 0px;
-  width: 120px;
-  text-decoration: inherit;
-  overflow: hidden;
-  word-break: break-all;
-}
-.yarpp-thumbnail-default {
-  overflow: hidden;
-}
-.yarpp-thumbnail-default > img {
-  width: 220px;
-  min-height: 120px;
-  min-width: 260px;
-}
-
-.yarpp-thumbnails-horizontal .yarpp-thumbnail {
-  width: 120px !important;
-  height: 260px !important;
-  margin: 0 !important;
-  margin-bottom: 5px !important;
-}
-.yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
-  width: auto !important;
-}
-.yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
-.yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
-  width: 120px !important;
-  height: 120px !important;
-  margin: 0 !important;
-  margin-bottom: 5px !important;
-}
-
-/*=================================================
- * Network Latest Posts
- *============================================== */
-.nlposts-block-container .nlposts-block-item {
-  float: left !important;
-  display: block !important;
-  width: 220px !important;
-  height: 300px !important;
-  margin: 10px !important;
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
-  -moz-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
-  box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
-}
-.nlposts-block-container .thumbnails {
-  margin: 0 !important;
-}
-.nlposts-block-container .thumbnails > li {
-  float: left;
-  margin: 0 !important;
-}
-.nlposts-block-container .nlposts-block-thumbnail-litem a > img {
-  display: block !important;
-  padding: 0 !important;
-  line-height: auto !important;
-  border: none !important;
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
-  border-radius: 0 !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  box-shadow: none !important;
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 !important;
-  filter: none !important;
-  -webkit-filter: none !important;
-  opacity: 1 !important;
-}
-.nlposts-block-container .nlposts-block-meta {
-  font-style: normal !important;
-  padding-left: 0 !important;
-  background: none !important;
-  border-bottom: none !important;
-  margin-bottom: 0 !important;
-
-  display: block !important;
-  color: white !important;
-  padding: 5px !important;
-  position: absolute !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
-  bottom: 0 !important;
-}
-.nlposts-caption {
-  padding: 5px !important;
-}
-.nlposts-block-title {
-  margin: 0 !important;
-  word-break: break-all !important;
-}
-.nlposts-block-title a {
-  color: #757575 !important;
-}
-.nlposts-block-thumbnail-wrapper {
-  position: relative;
-}
-.nlposts-siteid-1 .nlposts-block-meta {
-  background-color: #282C34 !important;
-}
-.nlposts-siteid-3 .nlposts-block-meta {
-  background-color: #BA3120 !important;
-}
-.nlposts-siteid-4 .nlposts-block-meta {
-  background-color: #159C35 !important;
-}
-.nlposts-siteid-5 .nlposts-block-meta {
-  background-color: #1571C1 !important;
 }
 
 .main-navigation .current-menu-item > a,
@@ -2012,6 +1851,16 @@ ul.category-child-links > li {
 }
 
 /*=================================================
+ * TOC+
+ *============================================== */
+#toc_container {
+  box-sizing: border-box;
+}
+/*=================================================
+ * /TOC+
+ *============================================== */
+
+/*=================================================
  * Responsive
  *============================================== */
 @media (max-width: 500px) {
@@ -2044,89 +1893,5 @@ ul.category-child-links > li {
     box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
     margin-bottom: 20px;
     padding: 15px;
-  }
-
-  /*=================================================
-  * Instagram Feed
-  *============================================== */
-  #sb_instagram #sbi_images .sbi_item {
-    padding: 0px !important;
-    margin-bottom: 20px !important;
-  }
-  #sb_instagram .sbi_photo { max-height: inherit !important; }
-
-  /*=================================================
-  * Youtube Channel
-  *============================================== */
-  .youtube_channel .ytc_video_container {
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 20px;
-    width: 100% !important;
-  }
-  .youtube_channel .ytc_video_container .ytc_title {
-    height: auto !important;
-    max-height: 100px !important;
-  }
-  .youtube_channel .ytc_video_container iframe {
-    width: 100% !important;
-  }
-
-  /*=================================================
-  * YARPP
-  *============================================== */
-  .yarpp-thumbnails-horizontal .yarpp-thumbnail {
-    width: 45% !important;
-    height: auto !important;
-    max-height: 360px !important;
-  }
-  .yarpp-thumbnails-horizontal .yarpp-thumbnail > img,
-  .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  /*=================================================
-  * Network Latest Posts
-  *============================================== */
-  .nlposts-block-container .nlposts-block-item {
-    width: 100% !important;
-    height: auto !important;
-    margin: 0 !important;
-    margin-bottom: 20px !important;
-  }
-  .nlposts-block-title {
-    font-size: 1.428571429rem !important;
-    line-height: 1.2 !important;
-    font-weight: normal !important;
-  }
-
-  /*=================================================
-  * RSS Retriever
-  *============================================== */
-  .wp_rss_retriever li {
-    width: 100% !important;
-    height: auto !important;
-    margin: 0px !important;
-    float: none !important;
-  }
-  .wp_rss_retriever_item_wrapper {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
-    -moz-box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
-    box-shadow: 0px 1px 5px 0px rgba(204,204,204,1);
-  }
-  .wp_rss_retriever_title {
-    height: auto !important;
-    padding: 10px 5px;
-    font-size: 1.428571429rem;
-    line-height: 1.2;
-    font-weight: normal;
-  }
-  .wp_rss_retriever_image {
-    width: 100% !important;
-    height: auto !important;
-    overflow: auto !important;
   }
 }
