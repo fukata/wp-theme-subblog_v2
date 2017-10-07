@@ -803,6 +803,8 @@ article.sticky .featured-post {
   margin: 0 0 24px;
   margin: 0 0 1.714285714rem;
   line-height: 1.714285714;
+  font-size: 18px;
+  color: #666;
 }
 .entry-content ol,
 .comment-content ol,
