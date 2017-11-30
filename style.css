@@ -1902,6 +1902,7 @@ ul.category-child-links > li {
   .archive .site-content article.has-post-thumbnail .entry-header {
     display: table-cell;
     width: 36%;
+    line-height: 0;
   }
 
   .home.blog .site-content article.has-post-thumbnail .entry-header.not-has-post-thumbnail,
