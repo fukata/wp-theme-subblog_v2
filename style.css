@@ -1766,6 +1766,7 @@ img#wpstats {
 .site-content article.has-post-thumbnail .entry-header {
   margin-bottom: 0px;
   display:table-cell;
+  line-height: 0;
 }
 .site-content article.has-post-thumbnail .entry-meta {
   margin-top: 0px;
