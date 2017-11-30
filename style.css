@@ -1870,7 +1870,7 @@ ul.category-child-links > li {
   .search .site-content article.has-post-thumbnail,
   .archive .site-content article.has-post-thumbnail {
     margin-bottom: 5px;
-    max-height: 110px;
+    max-height: 130px;
   }
 
   .site-content article.has-post-thumbnail {
@@ -1901,9 +1901,9 @@ ul.category-child-links > li {
   .search .site-content article.has-post-thumbnail .entry-header,
   .archive .site-content article.has-post-thumbnail .entry-header {
     display: table-cell;
-    width: 36%;
+    width: 40%;
     line-height: 0;
-    max-height: 110px;
+    max-height: 130px;
   }
 
   .home.blog .site-content article.has-post-thumbnail .entry-header.not-has-post-thumbnail,
@@ -1917,7 +1917,7 @@ ul.category-child-links > li {
   .archive .site-content article.has-post-thumbnail .entry-meta {
     display: table-cell;
     padding: 5px;
-    max-height: 110px;
+    max-height: 130px;
   }
 
   .home .site-content article.has-post-thumbnail .entry-meta h1.entry-title,
