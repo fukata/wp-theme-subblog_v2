@@ -1869,7 +1869,7 @@ ul.category-child-links > li {
   .home.blog .site-content article.has-post-thumbnail,
   .search .site-content article.has-post-thumbnail,
   .archive .site-content article.has-post-thumbnail {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     max-height: 130px;
   }
 
