@@ -1866,11 +1866,11 @@ ul.category-child-links > li {
  * Responsive
  *============================================== */
 @media (max-width: 500px) {
-  .home .site-content article,
-  .search .site-content article,
-  .archive .site-content article {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  .home.blog .site-content article.has-post-thumbnail,
+  .search .site-content article.has-post-thumbnail,
+  .archive .site-content article.has-post-thumbnail {
+    margin-bottom: 5px;
+    max-height: 110px;
   }
 
   .site-content article.has-post-thumbnail {
@@ -1896,4 +1896,44 @@ ul.category-child-links > li {
     margin-bottom: 20px;
     padding: 15px;
   }
+
+  .home.blog .site-content article.has-post-thumbnail .entry-header,
+  .search .site-content article.has-post-thumbnail .entry-header,
+  .archive .site-content article.has-post-thumbnail .entry-header {
+    display: table-cell;
+    width: 36%;
+  }
+
+  .home.blog .site-content article.has-post-thumbnail .entry-header.not-has-post-thumbnail,
+  .search .site-content article.has-post-thumbnail .entry-header.not-has-post-thumbnail,
+  .archive .site-content article.has-post-thumbnail .entry-header.not-has-post-thumbnail {
+    display: none;
+  }
+
+  .home.blog .site-content article.has-post-thumbnail .entry-meta,
+  .search .site-content article.has-post-thumbnail .entry-meta,
+  .archive .site-content article.has-post-thumbnail .entry-meta {
+    display: table-cell;
+    padding: 5px;
+  }
+
+  .home .site-content article.has-post-thumbnail .entry-meta h1.entry-title,
+  .search .site-content article.has-post-thumbnail .entry-meta h1.entry-title,
+  .archive .site-content article.has-post-thumbnail .entry-meta h1.entry-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .home .site-content article.has-post-thumbnail .entry-meta h1.entry-title a,
+  .search .site-content article.has-post-thumbnail .entry-meta h1.entry-title a,
+  .archive .site-content article.has-post-thumbnail .entry-meta h1.entry-title a {
+    text-decoration: none;
+  }
+
+  .home .site-content article.has-post-thumbnail .entry-meta .entry-tags,
+  .search .site-content article.has-post-thumbnail .entry-meta .entry-tags,
+  .archive .site-content article.has-post-thumbnail .entry-meta .entry-tags {
+    display: none;
+  }
+
 }

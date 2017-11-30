@@ -32,13 +32,17 @@
 		</div><!-- .entry-content -->
 
         <?php else : // is_single() ?>
-        <header class="entry-header">
-            <?php if ( FlickrPress::isExtractThumbnailByPostID( get_the_ID() ) ) { ?>
-            <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_post_thumbnail('m'); ?></a>
-            <?php } else { ?>
-            <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_post_thumbnail('thumbnail'); ?></a>
-            <?php } ?>
-        </header><!-- .entry-header -->
+          <?php if ( FlickrPress::isExtractThumbnailByPostID( get_the_ID() ) ) { ?>
+            <?php $post_thumbnail = get_the_post_thumbnail(null, 'm'); ?>
+            <header class="entry-header<?php echo $post_thumbnail ? "" : " not-has-post-thumbnail" ?>">
+              <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php echo $post_thumbnail ?></a>
+            </header><!-- .entry-header -->
+          <?php } else { ?>
+            <?php $post_thumbnail = get_the_post_thumbnail(null, 'thumbnail'); ?>
+            <header class="entry-header<?php echo $post_thumbnail ? "" : " not-has-post-thumbnail" ?>">
+              <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php echo $post_thumbnail ?></a>
+            </header><!-- .entry-header -->
+          <?php } ?>
         <?php endif; ?>
 
 		<?php if ( is_single() ) : ?>
@@ -71,7 +75,7 @@
             <?php $category = get_the_category()[0]; ?>
             <p class="category-name category-name-<?php echo $category->cat_ID ?>"><?php echo $category->cat_name ?></p>
             <time class="entry-date" datetime="<?php echo esc_attr( get_the_date( 'c' ) ) ?>"><?php echo esc_html( get_the_date() ) ?></time></a>
-            <p><?php echo get_the_tag_list( '', __( ', ', 'twentytwelve' ) ); ?></p>
+            <p class="entry-tags"><?php echo get_the_tag_list( '', __( ', ', 'twentytwelve' ) ); ?></p>
         </footer><!-- .entry-meta -->
         <?php endif; ?>
 	</article><!-- #post -->
