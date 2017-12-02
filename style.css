@@ -1783,6 +1783,8 @@ img#wpstats {
 img.attachment-post-thumbnail.wp-post-image {
   width: 240px;
   max-width: none;
+  max-height: 180px;
+  object-fit: cover;
 }
 
 .entry-header img.wp-post-image {
@@ -1882,6 +1884,8 @@ ul.category-child-links > li {
   }
   img.attachment-post-thumbnail.wp-post-image {
     width: 100%;
+    max-height: 130px;
+    object-fit: cover;
   }
   .site-content article.has-post-thumbnail .entry-meta {
     display: block;
