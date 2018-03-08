@@ -9,6 +9,7 @@
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=日本">日本</a></li>
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=台湾">台湾</a></li>
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=タイ">タイ</a></li>
+  <li><a href="/archives/category/<?php echo $category->slug ?>?tag=ベトナム">ベトナム</a></li>
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=カンボジア">カンボジア</a></li>
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=ラオス">ラオス</a></li>
   <li><a href="/archives/category/<?php echo $category->slug ?>?tag=マレーシア">マレーシア</a></li>
