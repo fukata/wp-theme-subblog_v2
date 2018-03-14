@@ -30,6 +30,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
+<?php echo stripslashes(get_option('my_ga_page_level_ad')); ?>
 </head>
 
 <body <?php body_class(); ?>>
